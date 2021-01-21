@@ -3,26 +3,41 @@
 <html>
     <head>
         <link rel="stylesheet" href="Styles/styles.css">
+        <title>Atomic Attire</title>
     </head>
 
     <body>
         <header id = "header">
-            <img src="https://freeminimallogos.com/wp-content/uploads/2016/01/Free-Minimal-Logo-17.png" alt="Company Logo" id = "header-img">
-            <h1>Atomic Clothing</h1>
+            <div class="title-div">
+        
+                    <img src="https://thumbs.dreamstime.com/b/radioactive-symbol-icon-nuclear-radiation-warning-sign-atomic-energy-logo-painted-ink-grunge-style-radioactive-symbol-icon-196824591.jpg" alt="Company Logo" id = "header-img">
+    
+                <h1>Atomic Attire</h1>
+            </div>
+            
             <nav id = "nav-bar">
                 <ul>
-                    <li><a href="#" class = "nav-link">Home</a></li>
-                    <li><a href="#" class = "nav-link">Products</a></li>
-                    <li><a href="#" class = "nav-link">Stores</a></li>
-                    <li><a href="#" class = "nav-link">Contact Us</a></li>
+                    <li><a href="#header" class = "nav-link">Home</a></li>
+                    <li><a href="#how-made" class = "nav-link">Products</a></li>
+                    <li><a href="#form" class = "nav-link">Subscribe</a></li>
+    
                 </ul>
             </nav>
         </header>
 
         <main>
-            <h2>Here's a video about how shirts are made!</h2>
-            <iframe id = "video" src="https://www.youtube.com/embed/RaBffG1zLL8" frameborder="0" controls></iframe>
+            <div id="how-made">
+                <h2>Here's a video about how shirts are made!</h2>
+                <iframe id = "video" src="https://www.youtube.com/embed/RaBffG1zLL8" frameborder="0" controls></iframe>
+            </div>
 
+            <hr>
+             
+            <form action="https://www.freecodecamp.com/email-submit" id = "form">
+                <label for="email">If you'd like to recieve updates and promos, subscribe to our mailing list!</label>
+                <input type="email" name="email" id="email" placeholder = "Please Enter an Email Address">
+                <input type="submit" id = "submit" value = "Submit!">
+            </form>
            
         </main>
 
